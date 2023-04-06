@@ -1,0 +1,398 @@
+h1 {
+    color: #ff7300;
+    font-family: 'Segoe UI';
+}
+h2{
+    font-family: 'Segoe UI';
+    color: #ff7300;
+}
+h3{
+    font-family: 'Segoe UI';
+    color: #ff7300;
+}
+h4{
+    font-family: 'Segoe UI';
+    color: #ff7300;
+}
+h5 {
+    text-align: center;
+    color: #ccc;
+    font-family: 'Segoe UI';
+}
+h6 {
+    text-align: center;
+    color: #ccc;
+    font-family: 'Segoe UI';
+}
+time {
+    font-weight: bolder;
+    font-style: italic;
+}
+#box {
+    background-color:rgba(0, 101, 179, 0.5); 
+    height: 30%;
+    width: 30%;
+    margin: auto;
+}
+#imgtlm{
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 220px;
+}
+#imgCrt{    
+    width: 100%;
+    height: 105%;
+}
+#imgcnt{    
+    width: 70%;
+    height: 85%;
+}
+#imgctc{
+    width: 100%;
+    height: 100%;
+}
+#div{
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+#container{
+    background-color: white;
+    text-align: center;
+    display: inline-flex;
+    flex-direction: row;
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+#container2{
+    background-color: white;
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    float: left;
+    width: 100%;
+}
+#cartao{    
+    background-color: #494948;
+    text-align: center;
+    display: inline-flex;
+    flex-direction: row;
+    float: left;
+    width: 95%;
+    border-radius: 120px;
+}
+#cartao2{
+    text-align: center;
+    display: inline-flex;
+    flex-direction: row;
+    float: left;
+    width: 95%;
+    padding: 30px;
+}
+
+#centro{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#centro2{
+    background-color: #E61030;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-top-left-radius: 120px;    
+    border-bottom-left-radius: 20px;
+}
+#centroCNT{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #F1F1F1;
+}
+#IConta{
+    background-color: #494948;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 230px;
+}
+#esquerda{
+    display: flex;
+    flex: 1.2;
+}
+#esquerda2{
+    background-color: #E61030;
+    display: flex;
+    flex: 1.2;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 120px;
+}
+
+#conta{    
+    background-color: #ff7300;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#conta2{    
+    background-color: #494948;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#Ctexto{
+    background-color: #494948;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 220px;
+}   
+
+#textoI{
+    font-family: 'Segoe UI';
+    text-align: center;
+    color: #012169;
+}
+#textoI2{
+    font-family: 'Segoe UI';
+    text-align: start;
+    color: #ffffff;
+    width: 50%;
+}
+#textoI3{
+    text-justify: auto;
+    font-family: 'Segoe UI';
+    text-align: justify;
+    color: #494948;
+    width: 60%;
+}
+#textoI4{
+    text-justify: auto;
+    font-family: 'Segoe UI';
+    text-align: start;
+    color: #ffffff;
+    width: 50%;
+}
+#textoc1{
+    text-justify: auto;
+    font-family: 'Segoe UI';
+    text-align: center;
+    color: #ff7300;
+    width: 70%;
+}
+#textoc2{
+    text-justify: auto;
+    font-family: 'Segoe UI';
+    text-align: center;
+    color: #494948;
+    width: 80%;
+}
+#contactos{
+    text-justify: auto;
+    font-family: 'Segoe UI';
+    text-align: center;
+    color: #494948;
+    width: 80%;
+    margin: 10px;
+}
+#contactosAZ{
+    text-justify: auto;
+    font-family: 'Segoe UI';
+    text-align: center;
+    color: #ff7300;
+    width: 80%;
+    margin: 10px;
+    font-weight: normal;
+}
+#contactosCZ{
+    text-justify: auto;
+    font-family: 'Segoe UI';
+    text-align: center;
+    color: #494948;
+    width: 80%;
+    margin: 10px;
+    font-weight: normal;
+}
+body{
+    background-color: white;    
+    padding: 0;
+    margin: 0;
+}
+
+#logo{
+    width: 100%;
+    height: 70%;
+}
+#imgL{
+    width: 10%;
+    height: 10%;
+}
+#imgS{
+    width: 20%;
+    height: 20%;
+}
+#imgI{
+    width: 30%;
+    height: 30%;
+}
+
+#fot{    
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: #313131;
+    width: 100%;
+}
+
+#Tlm{
+    color: #ff7300;
+    text-decoration: none;
+}
+
+#empty{
+    display: inline-flex;
+    flex: 0.1;
+    
+}
+
+#men{
+    display: inline-flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#men1{
+    display: inline-flex;
+    flex: 9;
+}
+#ext{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#for{
+    background-color: #F1F1F1;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    width: 30%;
+    position: relative;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+}
+#for::before{
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 160px;
+    width: 0;
+    height: 0;
+    border-top: 53px solid transparent;
+    border-right: 90px solid #F1F1F1;
+    border-bottom: 53px solid transparent;
+}
+#email{
+    width: 55%;
+    padding: 10px;
+    font-size: 16px;
+    border-width: 0px;
+    border-color: #CCCCCC;
+    background-color: #ffffff;
+    color: #ff7300;
+    border-style: solid;
+    border-radius: 0px;
+    box-shadow: 0px 0px 30px rgba(139, 139, 139, 0.8);
+
+}
+#msg{
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border-width: 0px;
+    border-color: #CCCCCC;
+    background-color: #ffffff;
+    color: #ff7300;
+    border-style: solid;
+    border-radius: 0px;
+    box-shadow: 0px 0px 30px rgba(139, 139, 139, 0.8);
+}
+label{
+    font-family:'Segoe UI';
+    font-size:24px;
+    font-weight: bold;
+    color:#ff7300;
+}
+#botao {
+	box-shadow: 0px 0px 10px 7px #95e6e1a1;
+	background-color:#ff7300;
+	border-radius:12px;
+    border-width: 0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+}
+#botao:hover {
+	background-color:#6ab6b1;
+}
+#botao:active {
+	position:relative;
+	top:1px;
+}
+@keyframes iconS{
+    0% { transform: rotate(0deg) scale(0.5);}
+    20% { transform: rotate(-45deg) scale(1)}
+    100% { transform: rotate(360deg) scale(1.5);filter: invert(25%) sepia(15%) saturate(76%) hue-rotate(22deg) brightness(98%) contrast(87%);}
+
+}
+#imgS:hover{
+    animation-name: iconS;
+    animation-duration: 2s;
+}
+#ext:hover{
+    animation-name: iconI;
+    animation-duration: 4s;
+}
+  @keyframes iconI{
+    0% { transform: rotate(0deg) scale(0.3);}
+    20% { transform: rotate(-45deg) scale(0.5)}
+    100% { transform: rotate(360deg) scale(1);}
+
+}
+
+
+
+/*
+Orange: Affordable, creative, light-hearted, and youthful. Orange combines the effect of red and yellow, exciting, and may drive appetite.
+Blue: Calming, confidence, dignity, loyalty, trustworthy. Blue is popular in government and medical companies for its authoritative appeal and
+ ability to evoke success and security.
+*/

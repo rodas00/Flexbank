@@ -1,0 +1,104 @@
+
+body{
+    background-color: white;    
+    padding: 0;
+    margin: 0;
+    font-family: "Segoe UI";
+}
+#txt{
+    font-family: "Segoe UI";
+    font-weight: bold;
+}
+
+#container{    
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#top{        
+    display: inline-flex;
+    flex:1;
+    flex-direction: row;
+    width: 100%;
+}
+#centro{        
+    display: inline-flex;
+    flex:3;
+    flex-direction: row;
+    width: 100%;
+}
+#esq{    
+    display: inline-flex;
+    flex:1;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+#cent{    
+    display: inline-flex;
+    flex:3;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+#dir{    
+    display: inline-flex;
+    flex:1;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+#pag{
+    display: inline-flex;
+    flex:1;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 1px;
+}
+#bot{            
+    display: inline-flex;
+    flex:1;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+#svg1{
+    fill:#91E5E0;
+    opacity:0.9;
+}
+#svg2{
+    fill:#91E5E0;
+    opacity:0.9;
+}
+#svg3{
+    fill: #313131;
+    opacity:0.9;
+}
+
+#pag:hover{
+    animation-name: svg;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+}
+
+#marq {
+    font-family:'Segoe UI';
+    font-size:16px;
+    font-variant:small-caps;
+    line-height:1px;
+    color:#FFFFFF;
+    background-color:#6cd6cf;
+    padding:1%;
+}
+
+@keyframes svg{
+    0% { transform: scale(0.5);}
+    100% { transform: scale(1);}
+
+}
+    

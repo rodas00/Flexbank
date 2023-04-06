@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #ff7300;
+    font-family: "Segoe UI";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI';
+}
+h1{
+    color: black;
+}
+input{
+    width: 65%;
+    padding: 10px;
+    margin: 15px;
+    font-size: 16px;
+    background-color: #ffffff;
+    border: 1px solid rgb(223, 223, 223);
+    font-size: 16px;
+    padding: 10x 20px;
+    color: #ff7300;
+    font-weight: bold;
+    outline: none;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    margin-top: 11%;
+    background-color: #012169;
+    border-top-right-radius: 20px;    
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;    
+    border-bottom-left-radius: 20px;
+}
+
+#corpo-form{
+    background-color: #f8f8f8;
+    display: flex;
+    flex: 1.5;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-top-left-radius: 220px;    
+    border-bottom-left-radius: 220px;
+    border-top-right-radius: 20px;    
+    border-bottom-right-radius: 20px;
+    padding: 40px;
+}
+
+#corpo-form h1{
+    color: #494948;
+}
+
+#corpo-text{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#corpo-text h1{
+    color: white;
+    padding-bottom: 12px;
+}
+#corpo-text h3{
+    color: white;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+a:hover{
+    text-decoration: underline;
+
+}
+
+/*botao*/
+#Bot{
+    width: 35%;
+    padding: 15px;
+    background-color: #ff7300;
+    box-shadow: 0px 0px 10px 7px #ff7300;
+    border:none;
+    cursor: pointer;
+    font-family:Arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:10px;
+	text-decoration:none;
+    border-radius:12px;
+    color: white;
+
+}
+#Bot:hover {
+	background-color:#f56e00;
+}
+#Bot:active {
+	position:relative;
+	top:1px;
+}
+
+::-webkit-input-placeholder{color:black;}
+
+:-moz-placeholder{
+    color: #ff7300;
+}
+::-moz-placeholder{
+    color: #ff7300;
+}
+:-ms-input-placeholder{
+    color: #ff7300;
+}
+
+#botao {
+	box-shadow: 0px 0px 10px 7px #ffffffb0;
+	background-color:#ffffff;
+	border-radius:12px;
+	display:inline-block;
+	cursor:pointer;
+	color:#012169;
+	font-family:Arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+    margin-top: 50px;
+}
+#botao:hover {
+	background-color:#f8f8f8;
+}
+#botao:active {
+	position:relative;
+	top:1px;
+}
+
+#for{
+    padding: 95px 0px 95px 0px;
+}
+
+.Logo{
+    padding-left: 60%;
+    padding-bottom: 5%;
+    height: 40px;
+    width: 150px;
+}

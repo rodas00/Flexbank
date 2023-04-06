@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Credito</title>
+    <link rel="stylesheet" href="styles/credito.css">
+    <link rel="stylesheet" href="styles/IndexStyles.css">
+    <link rel="stylesheet" href="styles/Styles.css">    
+    <link rel="icon" href="img/logo.png">
+    <script src="scripts/credito.js"></script>
+   
+  </head>
+
+  <body onload="computeResults();">
+    <div id="container">
+    <nav id="menu">
+      <div id="men"><a href="index.html"><img src="img/seta.png" id="imgS"></div>
+      <div id="men1">
+          <ul id="ulP">
+          <li id="liP"><a href="index.html"><img src="img/logo.png" id="imgL"></a></a></li>
+      </ul></div>
+    </nav>
+  </div>
+
+
+    <div id="space"></div>
+    <div id="Container">
+      <div id="space"></div>
+      
+      <div id="centroCDT">
+            <div id="right">
+              <h1>Simulador</h1>
+              <div class="slidT">
+                <h2 style="margin: 5px; padding: 5px;">Credito Pessoal</h2>
+              </div>
+              <div class="slid">
+                <div id="title"><div id="T"><h3>Escolha o montante</h3></div><div id="out"><output id="credito"></output></div></div>
+                <div id="inp"><input id="valor" class="slider1" step="500" min="5000" max="75000" value="0" type="range" oninput="computeResults()"/></div>
+              </div>
+              <div class="slid">
+                <div id="title"><div id="T"><h3>Escolha o prazo</h3></div><div id="out"><output id="tempo"></output></div></div>
+                <div id="inp"><input id="mes" class="slider1" step="6" min="12" max="84" value="0" type="range" oninput="computeResults()"/></div>
+              </div>
+              
+            </div>
+            <div id="left">
+              <div class="slid">
+                <div id="title"><div id="T1"><h3>Mensalidade</h3></div><div id="out1"><output id="mensalidade"></output></div></div>
+                <hr>
+              </div>
+              <div class="slid">
+                <div id="title"><div id="T1"><h3>TAEG</h3></div><div id="out1"><h3>8,6</h3></div></div>
+                <hr>
+              </div>
+              <div class="slid">
+                <div id="title"><div id="T1"><h3>TAN</h3></div><div id="out1"><h3>6,25</h3></div></div>
+                <hr>
+              </div>
+              <div class="slid">
+                <div id="title"><div id="T1"><h3>MTIC</h3></div><div id="out1"><output id="MTIC"></output></div></div>
+                <hr>               
+              </div>
+              <div id="space">
+                <a href="contactos.html" id="botao">Peça Já!</a> </div>
+            </div>
+      </div>
+      <div id="space"></div>
+    </div>
+    <div id="container">
+      <div id="conta">
+          <h1 id="textoI2">A LIBERDADE QUE PRECISA</h1>
+          <h3 id="textoI4">Faça a gestão do seu dia a dia de forma simples:
+            <ul>
+            <li>Não paga nada por ter Conta connosco / sem Comissão de Manutenção de Conta.</li>
+            <li>Os Cartões de Débito, Crédito não têm custos / sem Comissão de Disponibilização de Cartões.</li>
+            <li>Pagamentos de faturas ou subscrições online</li>
+            <li>Controlo de gastos com a nossa app</li></ul></h3>
+              <a href="Conta.html" id="botao2">Saiba Mais</a>
+      </div>
+      <div id="conta2">
+          <img id="imgcnt" src="img/conta.png">
+      </div>
+    </div>
+  <footer>
+    <div id="fot">
+        <h5>Horario de Funcionamento <time datetime="PT6H30M">6:30</time>-<time datetime="PT20H30M">20:30</time></h5>
+        <a href="https://www.instagram.com/rodrigofonsecarodras/" id="ext"><img id="imgI" src="img/IconIstagram.png"></a>
+        <h5>© 2022 Rodrigo Martins. Todos os direitos reservados</h5>
+    </div>
+</footer>
+</body>
+</html>
